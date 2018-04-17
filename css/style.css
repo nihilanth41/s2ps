@@ -1,0 +1,115 @@
+	/* Margin: size of whitespace OUTSIDE border */
+	/* Padding: size of whitespace between element content & element border */ 
+	/* #: id selector */
+	/* .: class selector */
+
+body {
+	margin: 0;
+	padding: 20px;
+	/*font-family: Arial;*/
+	color: #FFFFFF;
+	background-color: #343E48; 
+}
+
+#header {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid 2px #666666;
+	background: #484848;
+}
+
+
+#header h1 {
+	color: #FFFFFF;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+#header h1 a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#header h2 {
+	margin: 0;
+	font-size: 1em;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+#header h2 a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.transaction {
+	clear: left;
+	margin-bottom: 20px;
+	padding: 5px;
+	border: solid 1px #CCCCCC;
+	background: #EEEEEE;
+	font-size: 0.8em;
+}
+
+#menu h1 {
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	color: #888888;
+	font-variant: small-caps;
+	letter-spacing: 1.2pt;
+}
+
+#menu ul
+, #menu li {
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	list-style: none;
+}
+
+#content {
+	border-left: solid 2px #c0c0c0;
+	border-right: solid 2px #c0c0c0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#footer {
+	margin-top: 20px;
+	padding-top: 5px;
+	border-top: solid 2px #666666;
+	font-size: 0.8em;
+	color: #666666;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+	border: double 2px #226622;
+}
+
+th {
+	padding: 5px;
+	background: #224066;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+td {
+	padding: 5px;
+}
+
+#download { 
+	color: #0cd8b4;
+	font-size: 150%;
+	padding-left: 25px;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+.transaction {
+	color: #000000;
+}
